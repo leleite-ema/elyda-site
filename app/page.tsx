@@ -23,7 +23,7 @@ export default function Page() {
                 Atendimento 100% Online • {site.city} • {site.crn}
               </p>
               <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-                Emagreça com estratégia e cuide da sua saúde intestinal com acompanhamento online
+                Plano alimentar personalizado, sem dietas restritivas, com foco em saciedade, rotina real e resultado sustentável.
               </h1>
               <p className="mt-5 text-clinic-slate">
                 Plano alimentar personalizado, sem dietas restritivas, adaptado à sua rotina. Com foco em
@@ -32,7 +32,7 @@ export default function Page() {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button href={whatsappLink()} variant="primary">
-                  Agendar consulta online
+                  Quero começar meu plano personalizado
                 </Button>
                 <Button href="/consulta-online" variant="secondary">
                   Como funciona
