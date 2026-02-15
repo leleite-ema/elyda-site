@@ -38,6 +38,13 @@ export default function Page() {
                   Como funciona
                 </Button>
               </div>
+              <div className="mt-5 text-sm text-clinic-slate">
+              Atendimento 100% online • Plano personalizado • Acompanhamento estratégico
+              </div>
+
+              <div className="mt-2 text-xs text-clinic-slate">
+              + Atendimento para São Paulo e todo Brasil
+              </div>
 
               <div className="mt-6 text-xs text-clinic-slate">
                 * Os resultados variam de acordo com cada organismo e comprometimento com o plano proposto.
