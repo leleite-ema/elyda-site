@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #F5F2EA;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  @apply bg-clinic-bg text-clinic-ink antialiased;
+}
+
+a{
+  @apply underline-offset-4;
+}
