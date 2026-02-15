@@ -1,7 +1,6 @@
 export const site = {
   name: "Élyda Maele",
   tagline: "Nutricionista Clínica Online",
-  crn: "CRN3 84671",
   city: "São Paulo - SP",
   whatsappNumber: "+5511985494837", // <-- TROQUE AQUI (DDI+DDD+NUMERO)
   whatsappMessage:
