@@ -19,14 +19,22 @@ export default function Page() {
             <h1 className="text-3xl font-semibold tracking-tight">{site.name}</h1>
             <p className="mt-2 text-sm text-clinic-slate">{site.tagline} — {site.crn}</p>
 
-            <p className="mt-6 text-clinic-slate">
-              Sou {site.name}, nutricionista clínica com foco em emagrecimento sustentável e saúde intestinal.
-              Minha abordagem é baseada em ciência, estratégia e adaptação à rotina real do paciente.
+            <p className="mt-6 text-clinic-slate leading-relaxed">
+            Sou Élyda Maele, nutricionista clínica, formada em Nutrição e pós-graduada em Nutrição Esportiva e Nutrição Estética.
             </p>
-            <p className="mt-4 text-clinic-slate">
-              Aqui você não recebe uma dieta genérica. Você recebe um plano construído para funcionar no seu dia a dia,
-              promovendo autonomia, equilíbrio e resultados consistentes.
+
+            <p className="mt-4 text-clinic-slate leading-relaxed">
+            Minha atuação é voltada para o emagrecimento sustentável e a saúde intestinal, com uma abordagem baseada em ciência, estratégia e cuidado individualizado.
             </p>
+
+            <p className="mt-4 text-clinic-slate leading-relaxed">
+            Ao integrar conhecimento clínico, desempenho físico e estética, desenvolvo planos personalizados que equilibram saúde, composição corporal e bem-estar, sempre com foco em resultados consistentes e duradouros.
+            </p>
+
+            <p className="mt-4 text-clinic-slate leading-relaxed">
+            Aqui você não recebe uma dieta genérica. Você recebe um plano construído para funcionar no seu dia a dia, promovendo autonomia, equilíbrio e evolução real.
+            </p>
+
 
             <div className="mt-7">
               <Button href={whatsappLink()} variant="primary">
