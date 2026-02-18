@@ -2,6 +2,7 @@ import { Button } from "@/components/button";
 import { Section } from "@/components/section";
 import { site } from "@/components/site-config";
 import { whatsappLink } from "@/components/whatsapp";
+import { Testimonials } from "@/components/testimonials";
 
 function Card({ title, text }: { title: string; text: string }) {
   return (
@@ -22,9 +23,12 @@ export default function Page() {
               <p className="text-sm font-semibold text-clinic-slate">
                 Atendimento 100% Online • {site.city} • {site.crn}
               </p>
+
               <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">
-                Plano alimentar personalizado, sem dietas restritivas, com foco em saciedade, rotina real e resultado sustentável.
+                Plano alimentar personalizado, sem dietas restritivas, com foco em saciedade, rotina real e
+                resultado sustentável.
               </h1>
+
               <p className="mt-5 text-clinic-slate">
                 Plano alimentar personalizado, sem dietas restritivas, adaptado à sua rotina. Com foco em
                 resultado sustentável e reeducação alimentar.
@@ -38,12 +42,13 @@ export default function Page() {
                   Como funciona
                 </Button>
               </div>
+
               <div className="mt-5 text-sm text-clinic-slate">
-              Atendimento 100% online • Plano personalizado • Acompanhamento estratégico
+                Atendimento 100% online • Plano personalizado • Acompanhamento estratégico
               </div>
 
               <div className="mt-2 text-xs text-clinic-slate">
-              + Atendimento para São Paulo e todo Brasil
+                + Atendimento para São Paulo e todo Brasil
               </div>
 
               <div className="mt-6 text-xs text-clinic-slate">
@@ -53,7 +58,7 @@ export default function Page() {
 
             <div className="rounded-2xl border border-clinic-line bg-white/50 p-6 shadow-soft">
               <div className="text-sm font-semibold text-clinic-slate">Imagem (placeholder)</div>
-              <div className="mt-3 h-64 rounded-xl bg-clinic-bg border border-clinic-line flex items-center justify-center text-clinic-slate text-sm">
+              <div className="mt-3 h-64 rounded-xl border border-clinic-line bg-clinic-bg flex items-center justify-center text-clinic-slate text-sm">
                 Adicione fotos depois
               </div>
               <div className="mt-4 text-sm text-clinic-slate">
@@ -90,8 +95,14 @@ export default function Page() {
         className="bg-white/30"
       >
         <div className="grid gap-5 md:grid-cols-3">
-          <Card title="1) Avaliação completa" text="Videochamada + análise de rotina, histórico e exames (se houver)." />
-          <Card title="2) Plano personalizado" text="Estratégia alimentar alinhada ao seu dia a dia e preferências." />
+          <Card
+            title="1) Avaliação completa"
+            text="Videochamada + análise de rotina, histórico e exames (se houver)."
+          />
+          <Card
+            title="2) Plano personalizado"
+            text="Estratégia alimentar alinhada ao seu dia a dia e preferências."
+          />
           <Card title="3) Ajustes e suporte" text="Acompanhamento para corrigir rota e manter a evolução." />
         </div>
       </Section>
@@ -106,7 +117,10 @@ export default function Page() {
             "Suporte durante o processo",
             "Clareza: metas, passos e acompanhamento",
           ].map((item) => (
-            <li key={item} className="rounded-2xl border border-clinic-line bg-white/60 p-5 shadow-soft text-sm">
+            <li
+              key={item}
+              className="rounded-2xl border border-clinic-line bg-white/60 p-5 shadow-soft text-sm"
+            >
               {item}
             </li>
           ))}
@@ -124,6 +138,9 @@ export default function Page() {
           </div>
         </div>
       </Section>
+
+      {/* Depoimentos abaixo de Diferenciais */}
+      <Testimonials />
     </>
   );
 }
